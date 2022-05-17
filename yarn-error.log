@@ -1,0 +1,36 @@
+Arguments: 
+  /Users/gabriel.tantunes/.nvm/versions/node/v16.14.0/bin/node /Users/gabriel.tantunes/.nvm/versions/node/v16.14.0/bin/yarn init --y
+
+PATH: 
+  /usr/local/opt/libpq/bin:/usr/local/opt/php@7.4/bin:/Users/gabriel.tantunes/.sdkman/candidates/java/current/bin:/Users/gabriel.tantunes/.gvm/pkgsets/go1.18/global/bin:/Users/gabriel.tantunes/.gvm/gos/go1.18/bin:/Users/gabriel.tantunes/.gvm/pkgsets/go1.18/global/overlay/bin:/Users/gabriel.tantunes/.gvm/bin:/Users/gabriel.tantunes/.gvm/bin:/Users/gabriel.tantunes/.nvm/versions/node/v16.14.0/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin:/Library/Apple/usr/bin:/Users/gabriel.tantunes/.cargo/bin:/Users/gabriel.tantunes/Android/Sdk/emulator:/Users/gabriel.tantunes/Android/Sdk/tools:/Users/gabriel.tantunes/Android/Sdk/tools/bin:/Users/gabriel.tantunes/Android/Sdk/platform-tools
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  16.14.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: canceled
+      at Interface.<anonymous> (/Users/gabriel.tantunes/.nvm/versions/node/v16.14.0/lib/node_modules/yarn/lib/cli.js:137143:13)
+      at Interface.emit (node:events:520:28)
+      at Interface._ttyWrite (node:readline:1081:16)
+      at ReadStream.onkeypress (node:readline:288:10)
+      at ReadStream.emit (node:events:520:28)
+      at emitKeys (node:internal/readline/utils:358:14)
+      at emitKeys.next (<anonymous>)
+      at ReadStream.onData (node:internal/readline/emitKeypressEvents:61:36)
+      at ReadStream.emit (node:events:520:28)
+      at addChunk (node:internal/streams/readable:315:12)
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
