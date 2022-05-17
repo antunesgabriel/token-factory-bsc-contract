@@ -15,11 +15,11 @@ contract Token is ERC20, ERC20Burnable, Ownable {
         string memory tokenSymbol,
         address refOwner
     ) ERC20(tokenName, tokenSymbol) {
-        console.log("--- Mint a new Token ---");
-
         _refOwner = refOwner;
 
         _mint(msg.sender, tokenSupply * 10**decimals());
+
+        console.log("Mint a new Token --->", address(this));
     }
 
     function mint(address to, uint256 amount) public onlyOwner {

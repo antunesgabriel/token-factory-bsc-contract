@@ -1,5 +1,5 @@
 {
-  "name": "token-factory-bsc",
+  "name": "token-factory-bsc-contract",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
@@ -38,5 +38,9 @@
   },
   "dependencies": {
     "@openzeppelin/contracts": "^4.6.0"
+  },
+  "scripts": {
+    "start:dev": "yarn hardhat run scripts/run.ts",
+    "deploy:bsc:testnet": "yarn hardhat run scripts/deploy.ts --network testnet"
   }
 }
