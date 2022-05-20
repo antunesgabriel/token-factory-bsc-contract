@@ -17,7 +17,7 @@ contract Token is ERC20, ERC20Burnable, Ownable {
     ) ERC20(tokenName, tokenSymbol) {
         _refOwner = refOwner;
 
-        _mint(msg.sender, tokenSupply * 10**decimals());
+        _mint(refOwner, tokenSupply * 10**decimals());
 
         console.log("Mint a new Token --->", address(this));
     }
